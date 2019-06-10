@@ -1,0 +1,22 @@
+.header{
+    margin: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+.navbar-brand{
+    background: grey;
+    height: 100%;
+    margin-left: 150px;
+    margin-right: 600px;
+    padding: 20px;
+    font-size: 30px;
+}
+.navbar-nav{
+    float: right;
+}
+.jumbotron{
+    margin-left: 167px;
+    margin-right: 198px;
+
+}
