@@ -12,6 +12,31 @@
     <title>Gallery page with bootstrap</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html body {
+            height: 100%;
+            margin: 0;
+            position: absolute;
+        }
+        .main-section{
+            margin-left: 20px;
+            margin-right:20px;
+            height: 60px;
+        }
+
+        footer {
+
+            padding: 30px 0;
+            clear: both;
+            font-size: 12px;
+            color: #fff;
+            color: #ccc;
+            text-align: center;
+            background: #666;
+            border-top: 8px solid #4aaaa5;
+            margin-top: 10px;
+        }
+    </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -26,22 +51,85 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Gallery <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
-
     </nav>
-   
-        
+    <div class="main-section">
+        <div class="container-fluid">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">Portfolio</h4>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/technics-q-c-640-480-1.jpg">
+                        <div class="card-body" style="background-color: #5e7f7e">
+                            <h4>Word Guess</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/technics-q-c-640-480-2.jpg">
+                        <div class="card-body" style="background-color: #5e7f7e">
+                            <h4>RPG Game</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/technics-q-c-640-480-5.jpg">
+                        <div class="card-body" style="background-color: #5e7f7e">
+                            <h4>Trivia Game</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid padding">
+            <div class="row mb-5 padding">
+                <div class="col-md-2 mb-5"></div>
+                <div class="col-md-4 mb-5">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/technics-q-c-640-480-7.jpg">
+                        <div class="card-body" style="background-color: #5e7f7e">
+                            <h4>Word Guess</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/technics-q-c-640-480-9.jpg">
+                        <div class="card-body" style="background-color: #5e7f7e">
+                            <h4>Rock Paper Scissors</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </div>
+    <footer class="fixed-bottom">
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
+
 </body>
 
 </html>
